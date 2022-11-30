@@ -33,6 +33,10 @@
   <exec_depend>nav2_waypoint_follower</exec_depend>
   <exec_depend>nav2_velocity_smoother</exec_depend>
 
+  <exec_depend>dwb_plugins</exec_depend>
+  <exec_depend>dwb_critics</exec_depend>
+  <exec_depend>nav2_navfnplanner</exec_depend>
+
   <export>
     <build_type>ament_cmake</build_type>
   </export>
