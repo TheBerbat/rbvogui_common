@@ -13,7 +13,7 @@ if(BUILD_TESTING)
   find_package(ament_cmake_pytest REQUIRED)
 
   ament_add_pytest_test(
-    rbvogui_urdf_xacro
+    rbvogui_basic_std_urdf_xacro
     test/test_urdf_xacro.py
     TIMEOUT 30
   )
